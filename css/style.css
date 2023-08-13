@@ -24,3 +24,10 @@
     text-shadow: 5px 5px 5px;
     
 }
+
+.fotoyuvarlak{
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    object-fit: cover;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>VBlogger</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">VBlogger</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ürünler
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog oluştur</a></li>
+                            <li><a class="dropdown-item" href="#">E-ticaret Siteni oluştur</a></li>
+                            <li><a class="dropdown-item" href="#">Vlog siteni oluştur</a></li>
+                            <li><a class="dropdown-item" href="#">Haber Siteni oluştur</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Planlar ve Fiyatlandırma</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Özellikler
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Genel Görünüm</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Temalar</a></li>
+                            <li><a class="dropdown-item" href="#">Eklentiler</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Kaynaklar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Destek</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blog ve geliştirmeler</a></li>
+                            <li><a class="dropdown-item" href="#">İpuçları</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a href="giris.html"><button type="button" style="color: black; text-decoration: none;"
+                        class="btn btn-link">Giriş</button></a>
+                    <button class="btn btn-outline-dark" type="submit">Başlayın</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <main class="form-signin w-100 m-auto" style="padding: 200px;">
+        <form>
+          <h3>VBlogger</h3>
+          <h1 class="fw-normal baslik">Hesabınızda giriş yapın</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">E-mail</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="*********">
+            <label for="floatingPassword">Şifre</label>
+          </div>
+      
+          <div class="form-check text-start my-3">
+            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Beni hatırla
+            </label>
+          </div>
+          <button class="btn btn-primary w-100 py-2" type="submit">Giriş Yap</button>
+        </form>
+      </main>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 VBlogger, Bees.Co</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-youtube"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-tiktok"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
