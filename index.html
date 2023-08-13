@@ -1,5 +1,284 @@
-<?php 
+<!DOCTYPE html>
+<html lang="en">
 
-echo 'test';
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>VBlogger</title>
+</head>
 
-?>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VBlogger</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ürünler
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog oluştur</a></li>
+                            <li><a class="dropdown-item" href="#">E-ticaret Siteni oluştur</a></li>
+                            <li><a class="dropdown-item" href="#">Vlog siteni oluştur</a></li>
+                            <li><a class="dropdown-item" href="#">Haber Siteni oluştur</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Planlar ve Fiyatlandırma</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Özellikler
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Genel Görünüm</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Temalar</a></li>
+                            <li><a class="dropdown-item" href="#">Eklentiler</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Kaynaklar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Destek</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blog ve geliştirmeler</a></li>
+                            <li><a class="dropdown-item" href="#">İpuçları</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type="button" style="color: black; text-decoration: none;"
+                        class="btn btn-link">Giriş</button>
+                    <button class="btn btn-outline-dark" type="submit">Başlayın</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4 pt-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis baslik">Dünyanın en popüler web sitesi oluşturucusuna hoş
+            geldiniz!
+        </h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">İnternetin %43 gibi büyük bir oranı VBlogger da yer alıyor. Diğer tüm seçeneklere
+                kıyasla VBlogger'ı daha fazla blog yazarı, küçük işletme ve Fortune 500 şirketi kullanıyor.
+                VBlogger.com'u evi olarak gören milyonlara katılın.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Başlayın</button>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-2022-oct/media/desktop/tablet-2-2x.webp"
+                    class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500"
+                    loading="lazy">
+            </div>
+        </div>
+    </div>
+    <div class="row rowarkaplan">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-2022-oct/media/desktop/tablet-5-2x.webp"
+                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                        loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 baslik" style="color:white !important;">
+                        Şık temalar ve
+                        desenlerle öne çıkın</h1>
+                    <p class="lead" style="color:white !important;">Güzel hazırlanmış temalar ve tek tıklamalı
+                        düzenlerle sitenizin görünümünü ve verdiği
+                        hissi anında dönüştürün
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-light btn-lg px-4 me-md-2">Temanızı Bulun</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row2arkaplan">
+        <div class="container text-center px-4 pt-5">
+            <div class="row align-items-start">
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+                    style="width: 18rem; margin: auto; border: none; height: 400px;">
+                    <div class="yuvarlak">
+                        <i class="bi bi-braces"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Genişleyebilirlik</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill"></i> 50.000'den fazla eklenti ve
+                            tema kurun. Özel kod kullanın.</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill"></i> Çoklu site yönetimi.</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill"></i> SSH, WP-CLI ve Git araçları.
+                        </li>
+                    </ul>
+                </div>
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+                    style="width: 18rem; margin: auto; border: none; height: 400px;">
+                    <div class="yuvarlak">
+                        <i class="bi bi-lightning"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Performans</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill"></i> 28+ merkezde küresel CDN
+                        </li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill"></i> Yüksek oranda ölçeklenebilir
+                            CPU patlaması.</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill"></i> Işık hızında yüksek
+                            frekanslı CPU'lar.</li>
+                    </ul>
+                </div>
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+                    style="width: 18rem; margin: auto; border: none; height: 400px;">
+                    <div class="yuvarlak">
+                        <i class="bi bi-shield"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Güvenlik</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Eşzamanlı etkinlik kaydı.
+                        </li>
+                        <li class="list-group-item">DDOS mitigasyonu ve firewall koruması.
+                        </li>
+                        <li class="list-group-item">İzole site çevresi.
+                        </li>
+                    </ul>
+                </div>
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+                    style="width: 18rem; margin: auto; border: none; height: 400px;">
+                    <div class="yuvarlak">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Güvenilirlik</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Veri merkezi yük devretme.
+                        </li>
+                        <li class="list-group-item">Eşzamanlı yedekler.
+                        </li>
+                        <li class="list-group-item">Sınırsız bant genişliği ve sayfa görüntüleme.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding: 100px;">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis baslik">Size uyan paketini seçin</h1>
+        </div>
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Blog Oluştur</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">0₺<small
+                                    class="text-body-secondary fw-light">/aylık</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Güzel Temalar</li>
+                                <li>Sınırsız Sayfa</li>
+                                <li>Sınırsız Kullanıcı</li>
+                                <li>Her Daim Çevimiçi</li>
+                                <li>VBlogger Ads ile para kazanma</li>
+                            </ul>
+                            <div  class="w-100 btn btn-lg btn-secondary">Depolama Alanı: 50 GB</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Vlog</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">100₺<small
+                                    class="text-body-secondary fw-light">/Aylık</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Premium Temalar</li>
+                                <li>VBlogger Ads ile para kazanma</li>
+                                <li>Videolarını yüksek çözünürlükte paylaşma</li>
+                                <li>Bir yıllık ücretsiz alan adı</li>
+                                <li>Canlı sohbet desteği</li>
+                            </ul>
+                            <div  class="w-100 btn btn-lg btn-secondary">Depolama Alanı: 200 GB</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Ticaret</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">250₺<small
+                                    class="text-body-secondary fw-light">/Aylık</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Sınırsız ürün</li>
+                                <li>Premium temalar ve eklentiler</li>
+                                <li>Tekrar stokta maili</li>
+                                <li>Envanter yönetimi</li>
+                                <li>Canlı sohbet desteği</li>
+                            </ul>
+                            <div  class="w-100 btn btn-lg btn-secondary">Depolama Alanı: 100 GB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 VBlogger, Bees.Co</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-youtube"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-tiktok"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
